@@ -32,7 +32,13 @@
     <!-- Signup Form -->
     <!-- TODO: create submit and prevent postback -->
     <!-- bind to model -->
-    <form id="signup-form" method="post" action="#" @submit.prevent="submit">
+    <form
+      id="signup-form"
+      method="post"
+      action="#"
+      @submit.prevent="submit"
+      data-netlify="true"
+    >
       <input
         type="email"
         name="email"
